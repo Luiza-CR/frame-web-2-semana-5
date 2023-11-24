@@ -1,4 +1,4 @@
-package com.example.classes.model; // Declaração do pacote onde esta classe está localizada.
+package com.example.demo.model; // Declaração do pacote onde esta classe está localizada.
 
 import jakarta.persistence.*;
 

@@ -1,8 +1,8 @@
-package com.example.classes.repository; // Declaração do pacote onde esta interface de repositório está localizada.
+package com.example.demo.repository; // Declaração do pacote onde esta interface de repositório está localizada.
 
 import java.util.List; // Importa a classe List para trabalhar com coleções de classes.
 import org.springframework.data.jpa.repository.JpaRepository; // Importa a interface JpaRepository do Spring Data JPA.
-import com.example.classes.model.Class; // Importa a classe de modelo Class para especificar a entidade relacionada.
+import com.example.demo.model.Class; // Importa a classe de modelo Class para especificar a entidade relacionada.
 
 public interface ClassRepository extends JpaRepository<Class, Long> {
     // Declaração da interface ClassRepository que estende JpaRepository para operações CRUD em Class.
